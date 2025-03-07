@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"], // Ensure Tailwind scans your files
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"], 
   theme: {
     extend: {
       keyframes: {

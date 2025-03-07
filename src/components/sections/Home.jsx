@@ -38,7 +38,6 @@ export const Home = () => {
             deliver innovative solutions that make a difference.
           </p>
 
-          {/* Buttons */}
           <div className="btn-grp mt-10 flex gap-4 justify-evenly md:justify-start">
             <a
               href="/image/res.jpeg"
@@ -64,7 +63,7 @@ export const Home = () => {
 
           
           
-                    {/* Social Icons */}
+            
           <div className="pt-7 md:pt-10 px-2 flex justify-between max-w-90 flex-row animate-[slideLeft_3s_ease-in_forwards]">
             <a
               href="https://www.facebook.com/baal.vir.3"

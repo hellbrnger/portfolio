@@ -8,7 +8,7 @@ export const Navbar = () => {
   useEffect(() => {
     setTimeout(() => {
       setNavVisible(true);
-    }, 3000); // Slight delay for smooth transition
+    }, 3000); 
   }, []);
 
   return (
@@ -19,7 +19,7 @@ export const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
         
-        {/* Logo */}
+      
         <Link to="/" className="flex items-center space-x-2 text-white text-2xl font-semibold">
           <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-2xl font-bold animate-[slideRight_4s_ease-in]">
             N
@@ -27,7 +27,7 @@ export const Navbar = () => {
           <div className="logo-text font-mono animate-[slideRight_4s_ease-in]">Nishant Bharati</div>
         </Link>
 
-        {/* Desktop Menu */}
+      
         <div className="hidden md:flex space-x-8 text-2xl">
           {["Home", "About", "Resume", "Projects", "Contact"].map((item, index) => (
             <Link
@@ -41,7 +41,7 @@ export const Navbar = () => {
           ))}
         </div>
 
-        {/* Mobile Menu Toggle */}
+       
         <div
           className="md:hidden flex items-center cursor-pointer z-50"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -58,7 +58,6 @@ export const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden flex flex-col space-y-4 mt-4 text-center bg-gray-800 p-4 rounded-lg animate-slidebottom">
           {["Home", "About", "Resume", "Projects", "Contact"].map((item) => (

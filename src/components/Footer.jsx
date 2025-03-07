@@ -5,7 +5,7 @@ export const  Footer = () => {
     <footer className="md:opacity-0 text-gray-300 py-6 mt-16 px-25">
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
         
-        {/* Left Section - Copyright */}
+      
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h2 className="text-lg font-semibold text-white">Nishant Bharati</h2>
           <p className="text-sm">© {new Date().getFullYear()} All rights reserved.</p>
@@ -13,7 +13,7 @@ export const  Footer = () => {
 
        
 
-        {/* Right Section - Social Media Icons */}
+     
         <div className="flex space-x-4">
           <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
             <FaGithub className="w-6 h-6 hover:text-blue-500 transition" />

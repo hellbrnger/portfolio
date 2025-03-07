@@ -31,7 +31,7 @@ export const About = () => {
 
   return (
     <div className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-20 pt-24 flex flex-col items-center min-h-screen px-6">
-      {/* Section Heading */}
+      
       <div className="text-center mb-12">
         <h2 className="text-5xl font-bold tracking-wide animate-slideRight">
           About <span className="text-blue-400">Me</span>
@@ -41,9 +41,9 @@ export const About = () => {
         </p>
       </div>
 
-      {/* Profile & Intro Section */}
+      
       <div className="flex flex-col md:flex-row items-center justify-center max-w-6xl space-y-12 md:space-y-0 md:space-x-16">
-        {/* Profile Image */}
+        
         <div className="relative w-72 h-72 flex-shrink-0 animate-slideUp">
           <img 
             src="/image/360_F_601171862_l7yZ0wujj8o2SowiKTUsfLEEx8KunYNd.jpg"
@@ -52,7 +52,7 @@ export const About = () => {
           />
         </div>
 
-        {/* Introduction */}
+        
         <div className="max-w-2xl text-center md:text-left animate-slideLeft">
           <h1 className="text-4xl font-bold mb-4 text-blue-400">Hi, I'm Nishant Bharati</h1>
           <p className="text-lg text-gray-300 leading-relaxed">
@@ -76,9 +76,9 @@ export const About = () => {
         </div>
       </div>
 
-      {/* Skills Section */}
+      
       <div className="grid md:grid-cols-2 gap-10 max-w-5xl mt-20 w-full animate-slideDown">
-        {/* Technical Skills */}
+        
         <div className="bg-gray-800 p-10 rounded-2xl shadow-lg backdrop-blur-lg bg-opacity-60 border border-gray-700">
           <h2 className="text-3xl text-blue-400 mb-6 text-center font-semibold">Technical Skills</h2>
           <div className="space-y-6">
@@ -98,7 +98,7 @@ export const About = () => {
           </div>
         </div>
       
-        {/* Soft Skills */}
+      
         <div className="bg-gray-800 p-10 rounded-2xl shadow-lg backdrop-blur-lg bg-opacity-60 border border-gray-700">
           <h2 className="text-3xl text-blue-400 mb-6 text-center font-semibold">Soft Skills</h2>
           <div className="space-y-6">

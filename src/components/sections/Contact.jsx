@@ -26,7 +26,7 @@ export const Contact = () => {
 
   return (
     <div className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white min-h-screen flex flex-col items-center pt-24 py-16 px-6">
-      {/* Heading */}
+  
       <div className="text-center mb-12 animate-slideRight">
         <h2 className="text-5xl font-bold text-cyan-400">
           Contact <span className="text-purple-400">Me</span>
@@ -36,9 +36,9 @@ export const Contact = () => {
         </p>
       </div>
 
-      {/* Contact Form & Info Section */}
+    
       <div className="flex flex-col md:flex-row w-full max-w-6xl gap-10 animate-slideUp">
-        {/* Contact Info */}
+        
         <div className="bg-gray-800 p-10 rounded-2xl shadow-lg flex-1 border border-gray-700">
           <h3 className="text-3xl text-cyan-400 mb-6">Get in Touch</h3>
           <div className="space-y-6">
@@ -57,7 +57,7 @@ export const Contact = () => {
           </div>
         </div>
 
-        {/* Contact Form */}
+      
         <div className="bg-gray-800 p-10 rounded-2xl shadow-lg flex-1 border border-gray-700">
           <h3 className="text-3xl text-cyan-400 mb-6">Send Me a Message</h3>
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -93,7 +93,7 @@ export const Contact = () => {
             </button>
           </form>
 
-          {/* Status Message */}
+        
           {status && (
             <p className="mt-4 text-center text-lg font-semibold text-gray-300">
               {status}
