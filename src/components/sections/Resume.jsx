@@ -18,7 +18,7 @@ export const Resume = () => {
       {showResume && (
         <div className="flex justify-center w-full max-w-4xl border border-gray-700 rounded-lg overflow-hidden shadow-lg transition-all duration-500 ease-in-out scale-95 hover:scale-100">
           <img
-            src="/image/res.jpeg"
+            src="Portfolio/public/image/nishant_resume7-3-2025.pdf"
             alt="Resume"
             className="w-[80%] max-w-full max-h-[85vh] object-contain rounded-lg opacity-90 hover:opacity-100 transition-opacity duration-300"
           />

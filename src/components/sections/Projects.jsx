@@ -4,19 +4,31 @@ export const Projects = () => {
       title: "Diabetes Prediction",
       description: "Machine learning model to predict diabetes in pregnant women using Pandas, NumPy, and sklearn.",
       image: "/image/Diabetes-Prediction-Using-Machine-Learning (1).webp",
-      link: "#",
+      link: "https://github.com/hellbrnger/diabetes_pred", // Replace with GitHub link
     },
     {
       title: "Heart Disease Prediction",
       description: "A predictive model for heart disease diagnosis using logistic regression in Python.",
       image: "/image/1_UIOup_6QtddueH9VjaT8HQ copy.jpg",
-      link: "#",
+      link: "https://github.com/hellbrnger/Heart_disease-prediction", // Replace with GitHub link
     },
     {
       title: "Portfolio Website",
       description: "Designed and developed a responsive portfolio website using React, Tailwind CSS, and modern UI principles.",
       image: "/image/hq720.jpg",
-      link: "#",
+      link: "https://github.com/hellbrnger/portfolio", // Replace with GitHub link
+    },
+    {
+      title: "Movie Recommendation System",
+      description: "A recommendation system suggesting movies based on user preferences using collaborative filtering.",
+      image: "/image/images.jpeg",
+      link: "https://github.com/hellbrnger/movie_recommend_final", // Replace with GitHub link
+    },
+    {
+      title: "E-commerce Recommendation System",
+      description: "An AI-driven recommendation engine for e-commerce platforms to personalize user shopping experience.",
+      image: "/image/photo-1536440136628-849c177e76a1.jpeg",
+      link: "https://github.com/hellbrnger/ecomm_recomm", // Replace with GitHub link
     },
   ];
 
@@ -53,6 +65,8 @@ export const Projects = () => {
             {/* View Project Button */}
             <a
               href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-6 bg-blue-500 text-white py-2 px-6 rounded-full text-lg font-medium tracking-wide transition-all duration-300 hover:bg-blue-600 hover:shadow-md animate-slideLeft"
             >
               View Project →
