@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: #101828;
+  color: #f3f4f6;
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(250%);
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@layer utilities {
+  .animate-loading-bar {
+    animation: loading 0.8s ease-in-out infinite;
+  }
+  .animate-blink{
+    animation: blink 1s step-end infinite;
+  }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-slideDown {
+    animation: slideDown 1s ease-in forwards;
+}
+.animate-slideRight {
+    animation: slideRight 1s ease-in forwards;
+}
+.animate-slideLeft {
+    animation: slideLeft 1s ease-in backwards;
+}
+.animate-slideUp {
+    animation: slideUp 1s ease-in forwards;
+}
+
+
+@keyframes fillBar1 {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}
+.animate-fillBar1 {
+    animation: fillBar1 2s ease-in-out forwards;
+}
+
+
+
+@keyframes fillBar {
+    0% { width: 0%; }
+    100% { width: 75%; }
+}
+.animate-fillBar {
+    animation: fillBar 2s ease-in-out forwards;
+}
+
+@keyframes backForth {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+}
+
+.animate-back-forth {
+  display: inline-block;
+  animation: backForth 2s infinite alternate ease-in-out;
+}
+
+
